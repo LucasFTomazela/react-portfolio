@@ -80,4 +80,9 @@
     .aboutItems {
         margin-top: 29px;
     }
+
+    .aboutItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
