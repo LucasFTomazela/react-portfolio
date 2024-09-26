@@ -1,3 +1,10 @@
+@import '../src/vars.css';
+
+#root {
+  overflow-x: clip;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +12,22 @@
   font-family: "Outfit", Arial, Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow-x: clip;
+  background-color: var(--color-bg);
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+.center {
+  max-width: 1105px;
+  width: 100%;
+}
+
+/* @media screen and (max-width: 1000px) {
+  .center {
+    max-width: 440px;
+  }
+} */

@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding: 61px 20px 0 20px;
+    margin: 0 auto;
     z-index: 2;
-    margin: 0 10%;
 }
 
 .title {
@@ -31,6 +31,10 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+}
+
+.menuBtn {
+    display: none;
 }
 
 @media screen and (max-width: 830px) {
