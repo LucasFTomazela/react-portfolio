@@ -1,0 +1,15 @@
+.languageSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.languageSwitcher>button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.languageSwitcher>button>img {
+    width: 50px;
+}

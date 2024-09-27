@@ -1,16 +1,14 @@
+import { useTranslation } from "react-i18next";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className={`${styles.container} center`}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I&apos;m Lucas</h1>
-        <p className={styles.description}>
-          I&apos;m moving into software development after experience in systems
-          analysis. I&apos;m eager to contribute to innovative projects and grow my
-          skills. Let&apos;s connect!
-        </p>
+        <h1 className={styles.title}>{t("nameHero")}</h1>
+        <p className={styles.description}>{t("descriptionHero")}</p>
         <a
           href="mailto:lucasfernandobts@gmail.com"
           className={styles.contactBtn}
