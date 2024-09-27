@@ -7,13 +7,13 @@ export const Hero = () => {
   return (
     <section className={`${styles.container} center`}>
       <div className={styles.content}>
-        <h1 className={styles.title}>{t("nameHero")}</h1>
-        <p className={styles.description}>{t("descriptionHero")}</p>
+        <h1 className={styles.title}>{t("hero.nameHero")}</h1>
+        <p className={styles.description}>{t("hero.descriptionHero")}</p>
         <a
           href="mailto:lucasfernandobts@gmail.com"
           className={styles.contactBtn}
         >
-          Contact Me
+          {t("hero.contactBtn")}
         </a>
       </div>
       <img

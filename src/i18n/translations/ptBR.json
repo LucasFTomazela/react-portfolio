@@ -1,11 +1,91 @@
 {
   "translation": {
-    "pageName": "Portfólio",
-    "about": "Sobre",
-    "experience": "Experiência",
-    "projects": "Projetos",
-    "contact": "Contato",
-    "nameHero": "Oi, me chamo Lucas",
-    "descriptionHero": "Estou migrando para o desenvolvimento de software após experiência em análise de sistemas. Estou ansioso para contribuir com projetos inovadores e desenvolver minhas habilidades. Vamos nos conectar!"
+    "navBar": {
+      "pageName": "Portfólio",
+      "about": "Sobre",
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "language": "Idioma:"
+    },
+    "hero": {
+      "nameHero": "Oi, me chamo Lucas",
+      "descriptionHero": "Estou migrando para o desenvolvimento de software após experiência em análise de sistemas. Estou ansioso para contribuir com projetos inovadores e desenvolver minhas habilidades. Vamos nos conectar!",
+      "contactBtn": "Entrar em contato"
+    },
+    "about": {
+      "title": "Sobre",
+      "title1": "Desenvolvedor Full Stack em Transição",
+      "description1": "Estou migrando para o desenvolvimento full-stack, focando em tecnologias como React, Node.js e JavaScript para construir aplicações web eficientes.",
+      "title2": "Experiência como Analista de Sistemas",
+      "description2": "Atualmente em gestão e suporte de sistemas, meu objetivo é migrar para o desenvolvimento de software e trabalhar em soluções impactantes.",
+      "title3": "Motivado a Desenvolver Soluções",
+      "description3": "Sou apaixonado por construir ferramentas que causam impacto. Meu objetivo é focar em codificação, resolução de problemas e melhoria de eficiência."
+    },
+    "exp": {
+      "title": "Experiência",
+      "skills": [
+        { "title": "JavaScript" },
+        { "title": "React" },
+        { "title": "Node.js" }
+      ],
+      "history": [
+        {
+          "role": "Analista de Sistemas",
+          "organisation": "Unimed",
+          "startDate": "Mai, 2021",
+          "endDate": "Presente",
+          "experiences": [
+            "Gerenciou e deu suporte a máquinas virtuais",
+            "Trabalhou na manutenção de redes e servidores"
+          ],
+          "imageSrc": "history/unimed.png"
+        },
+        {
+          "role": "Estudante",
+          "organisation": "Udemy",
+          "startDate": "Jan, 2022",
+          "endDate": "Presente",
+          "experiences": [
+            "Concluiu vários projetos usando JavaScript, React e Node.js",
+            "Desenvolveu um sistema de gerenciamento de usuários como projeto final"
+          ],
+          "imageSrc": "history/udemy.png"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "project": [
+        {
+          "title": "Projeto A",
+          "imageSrc": "projects/project.png",
+          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
+          "skills": ["React", "Express", "Node"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        },
+        {
+          "title": "Projeto B",
+          "imageSrc": "projects/project.png",
+          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
+          "skills": ["React", "Express", "Node", "Sass"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        },
+        {
+          "title": "Projeto C",
+          "imageSrc": "projects/project.png",
+          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
+          "skills": ["React", "Express", "Node"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contato",
+      "paragraph": "Sinta-se à vontade para entrar em contato!"
+    }
   }
 }

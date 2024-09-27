@@ -1,11 +1,86 @@
 {
   "translation": {
-    "pageName": "Portfolio",
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "contact": "Contact",
-    "nameHero": "Hi, I'm Lucas",
-    "descriptionHero": "I'm moving into software development after experience in systems analysis. I'm eager to contribute to innovative projects and grow my skills. Let's connect!"
+    "navBar": {
+      "pageName": "Portfolio",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "language": "Language:"
+    },
+    "hero": {
+      "nameHero": "Hi, I'm Lucas",
+      "descriptionHero": "I'm moving into software development after experience in systems analysis. I'm eager to contribute to innovative projects and grow my skills. Let's connect!",
+      "contactBtn": "Contact Me"
+    },
+    "about": {
+      "title": "About",
+      "title1": "Full Stack Developer in Transition",
+      "description1": "I'm moving into full-stack development, focusing on technologies like React, Node.js, and JavaScript to build efficient web applications.",
+      "title2": "System Analyst Experience",
+      "description2": "Currently in system management and support, I'm aiming to transition into software development to work on impactful solutions.",
+      "title3": "Driven to Develop Solutions",
+      "description3": "I'm passionate about building tools that make an impact. My goal is to focus on coding, problem-solving, and improving efficiency."
+    },
+    "exp": {
+      "title": "Experience",
+      "history": [
+        {
+          "role": "System Analyst",
+          "organisation": "Unimed",
+          "startDate": "May, 2021",
+          "endDate": "Present",
+          "experiences": [
+            "Managed and supported virtual machines",
+            "Worked on network and server maintenance"
+          ],
+          "imageSrc": "history/unimed.png"
+        },
+        {
+          "role": "Student",
+          "organisation": "Udemy",
+          "startDate": "Jan, 2022",
+          "endDate": "Present",
+          "experiences": [
+            "Completed multiple projects using JavaScript, React, and Node.js",
+            "Developed a user management system as a final project"
+          ],
+          "imageSrc": "history/udemy.png"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "project": [
+        {
+          "title": "Project A",
+          "imageSrc": "projects/project.png",
+          "description": "This is a project made to learn the latest languages by building an app.",
+          "skills": ["React", "Express", "Node"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        },
+        {
+          "title": "Project B",
+          "imageSrc": "projects/project.png",
+          "description": "This is a project made to learn the latest languages by building an app.",
+          "skills": ["React", "Express", "Node", "Sass"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        },
+        {
+          "title": "Project C",
+          "imageSrc": "projects/project.png",
+          "description": "This is a project made to learn the latest languages by building an app.",
+          "skills": ["React", "Express", "Node"],
+          "demo": "https://www.example.com",
+          "source": "https://www.github.com"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "paragraph": "Fell free to reach out!"
+    }
   }
 }

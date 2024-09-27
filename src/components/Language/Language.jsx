@@ -16,10 +16,10 @@ const languageOptions = [
 ];
 
 export const Language = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   return (
-    <div className={styles.languageSwitcher}>
+    <div className={`${styles.languageSwitcher} center`}>
       {languageOptions.map((languageOption) => (
         <button
           onClick={() => {
@@ -30,6 +30,7 @@ export const Language = () => {
           <img src={languageOption.flag} alt={languageOption.name} />
         </button>
       ))}
+      <p>{t("navBar.language")}</p>
     </div>
   );
 };

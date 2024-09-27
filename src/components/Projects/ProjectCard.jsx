@@ -1,34 +1,33 @@
 /* eslint-disable react/prop-types */
-import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
+import { getImageUrl } from "../../utils";
 
-export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+export const ProjectCard = ({ project }) => {
+  // Adicionando props para receber o projeto
+
+  // Acessando os dados do projeto
   return (
     <div className={`${styles.container}`}>
       <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
+        src={getImageUrl(project.imageSrc)}
+        alt={`Image of ${project.title}`}
         className={styles.image}
       />
-      <h2 className={styles.title}>{title}</h2>
-      <p className={styles.description}>{description}</p>
+      <h2 className={styles.title}>{project.title}</h2>
+      <p className={styles.description}>{project.description}</p>
       <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
+        {project.skills.map((skill, id) => (
+          <li key={id} className={styles.skill}>
+            {skill}
+          </li>
+        ))}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
+        <a href={project.demo} className={styles.link}>
+          Link
         </a>
-        <a href={source} className={styles.link}>
-          Source
+        <a href={project.source} className={styles.link}>
+          GitHub
         </a>
       </div>
     </div>

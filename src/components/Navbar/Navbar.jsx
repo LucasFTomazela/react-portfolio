@@ -3,7 +3,6 @@ import { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { useTranslation } from "react-i18next";
-import { Language } from "../Language/Language";
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -11,7 +10,7 @@ export const Navbar = () => {
   return (
     <nav className={`${styles.navbar} center`}>
       <a className={styles.title} href="/">
-        {t("pageName")}
+        {t("navBar.pageName")}
       </a>
       <div className={styles.menu}>
         <img
@@ -29,19 +28,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">{t("about")}</a>
+            <a href="#about">{t("navBar.about")}</a>
           </li>
           <li>
-            <a href="#experience">{t("experience")}</a>
+            <a href="#experience">{t("navBar.experience")}</a>
           </li>
           <li>
-            <a href="#projects">{t("projects")}</a>
+            <a href="#projects">{t("navBar.projects")}</a>
           </li>
           <li>
-            <a href="#contact">{t("contact")}</a>
-          </li>
-          <li>
-            <Language />
+            <a href="#contact">{t("navBar.contact")}</a>
           </li>
         </ul>
       </div>
