@@ -11,22 +11,22 @@ export const About = () => {
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('about/cursorIcon.png')} alt="Cursor icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Devoloper</h3>
-                        <p>I&apos;am a frontend developer with experience in building responsive and optimize sites</p>
+                        <h3>Full Stack Developer in Transition</h3>
+                        <p>I&apos;m moving into full-stack development, focusing on technologies like React, Node.js, and JavaScript to build efficient web applications.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('about/serverIcon.png')} alt="Server icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Backend Devoloper</h3>
-                        <p>I have experience developing fast and optimsed back-end systems and APIs  </p>
+                        <h3>System Analyst Experience</h3>
+                        <p>Currently in system management and support, I&apos;m aiming to transition into software development to work on impactful solutions.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('about/uiIcon.png')} alt="UI icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
-                        <p>I have designed multiple landing pages and have systems as well</p>
+                        <h3>Driven to Develop Solutions</h3>
+                        <p>I&apos;m passionate about building tools that make an impact. My goal is to focus on coding, problem-solving, and improving efficiency.</p>
                     </div>
                 </li>
             </ul>

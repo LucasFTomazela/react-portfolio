@@ -6,6 +6,14 @@
       "endDate": "Present",
       "experiences": ["Managed and supported virtual machines", "Worked on network and server maintenance"],
       "imageSrc": "history/unimed.png"
+    },
+    {
+      "role": "Student",
+      "organisation": "Udemy",
+      "startDate": "Jan, 2022",
+      "endDate": "Present",
+      "experiences": ["Completed multiple projects using JavaScript, React, and Node.js", "Developed a user management system as a final project"],
+      "imageSrc": "history/udemy.png"
     }
   ]
   
