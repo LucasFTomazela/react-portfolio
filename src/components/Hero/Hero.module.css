@@ -108,6 +108,18 @@
         flex-direction: column-reverse;
     }
 
+    .title {
+        font-size: 48px;
+    }
+
+    .description {
+        font-size: 24px;
+    }
+
+    .contactBtn {
+        font-size: 28px;
+    }
+    
     .heroImg {
         width: 372px;
     }
