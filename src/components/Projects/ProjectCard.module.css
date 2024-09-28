@@ -6,21 +6,24 @@
     border-radius: 10px;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px;
+    /* padding: 18px 20px; */
     max-width: 345px;
 }
 
 .image {
-    margin-bottom: 26px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
 }
 
 .title {
+    padding: 0 20px;
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 1.5px;
 }
 
 .description {
+    padding: 0 20px;
     margin-top: 6px;
     font-size: 20px;
     font-weight: 400;

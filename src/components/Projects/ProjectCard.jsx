@@ -22,14 +22,14 @@ export const ProjectCard = ({ project }) => {
           </li>
         ))}
       </ul>
-      <div className={styles.links}>
+      {/* <div className={styles.links}>
         <a href={project.demo} className={styles.link}>
           Link
         </a>
         <a href={project.source} className={styles.link}>
           GitHub
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -58,26 +58,26 @@
       "title": "Projetos",
       "project": [
         {
-          "title": "Projeto A",
-          "imageSrc": "projects/project.png",
-          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
-          "skills": ["React", "Express", "Node"],
+          "title": "Em breve",
+          "imageSrc": "projects/project.jpg",
+          "description": "Projeto em desenvolvimento",
+          "skills": [],
           "demo": "https://www.example.com",
           "source": "https://www.github.com"
         },
         {
-          "title": "Projeto B",
-          "imageSrc": "projects/project.png",
-          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
-          "skills": ["React", "Express", "Node", "Sass"],
+          "title": "Em breve",
+          "imageSrc": "projects/project.jpg",
+          "description": "Projeto em desenvolvimento",
+          "skills": [],
           "demo": "https://www.example.com",
           "source": "https://www.github.com"
         },
         {
-          "title": "Projeto C",
-          "imageSrc": "projects/project.png",
-          "description": "Este é um projeto feito para aprender as linguagens mais recentes construindo um aplicativo.",
-          "skills": ["React", "Express", "Node"],
+          "title": "Em breve",
+          "imageSrc": "projects/project.jpg",
+          "description": "Projeto em desenvolvimento",
+          "skills": [],
           "demo": "https://www.example.com",
           "source": "https://www.github.com"
         }
