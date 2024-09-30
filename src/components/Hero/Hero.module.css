@@ -34,6 +34,9 @@
     margin-bottom: 52px;
 }
 
+
+/* Criar componente btn */
+
 .contactBtn {
     text-decoration: none;
     background-color: var(--color-primary);
@@ -43,7 +46,21 @@
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    transition: background 0.5s ease-in-out;
+    /* Suaviza a transição de background */
 }
+
+.contactBtn:hover {
+    background: linear-gradient(90deg, #007BFF, #00509E);
+    /* Gradiente de cor no hover */
+    background-position: right;
+    /* Move o gradiente da esquerda para a direita */
+    background-size: 300%;
+    /* Controla a velocidade do preenchimento */
+}
+
+/* Criar componente btn */
+
 
 .heroImg {
     width: 428px;
@@ -119,7 +136,7 @@
     .contactBtn {
         font-size: 28px;
     }
-    
+
     .heroImg {
         width: 372px;
     }
