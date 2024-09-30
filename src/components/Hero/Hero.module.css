@@ -43,6 +43,7 @@
 .contactBtn {
     display: flex;
     gap: 10px;
+    align-items: center;
 
     text-decoration: none;
     background-color: var(--color-primary);
@@ -122,6 +123,32 @@
     z-index: 0;
 }
 
+@media screen and (max-width: 1035px) {
+    .contactBtn {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .contactBtn {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 955px) {
+    .heroImg {
+        width: 374px;
+    }
+
+    .contactBtn {
+        font-size: 18px;
+    }
+
+    .contactBtn img {
+        width: 30px;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
@@ -146,4 +173,12 @@
     .content {
         align-items: center;
     }
+}
+
+@media screen and (max-width: 570px) {
+
+    .buttonsHero {
+        flex-direction: column;
+    }
+
 }
