@@ -32,7 +32,21 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    /* Transições suaves */
+    display: inline-block;
 }
+
+/* Efeito de hover (elevação) nos links, somente para desktop */
+@media (min-width: 931px) {
+    .menuItems a:hover {
+        transform: translateY(-5px);
+        /* Efeito de "subida" */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        /* Sombra maior */
+    }
+}
+
 
 .menuBtn {
     display: none;
