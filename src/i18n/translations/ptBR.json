@@ -11,7 +11,8 @@
     "hero": {
       "nameHero": "Oi, me chamo Lucas",
       "descriptionHero": "Com experiência em gerenciamento de sistemas, agora estou focado na transição para o desenvolvimento de software para criar soluções eficazes.",
-      "contactBtn": "Entrar em contato"
+      "contactBtn": "Entrar em contato",
+      "downloadCV": "Baixar CV"
     },
     "about": {
       "title": "Sobre",

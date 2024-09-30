@@ -11,7 +11,8 @@
     "hero": {
       "nameHero": "Hi, I'm Lucas",
       "descriptionHero": "With a background in systems management, I'm now focused on transitioning into software development to create effective solutions.",
-      "contactBtn": "Contact Me"
+      "contactBtn": "Contact Me",
+      "downloadCV": "Download CV"
     },
     "about": {
       "title": "About",
