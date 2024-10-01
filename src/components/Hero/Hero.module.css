@@ -44,6 +44,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
 
     text-decoration: none;
     background-color: var(--color-primary);
@@ -131,7 +132,7 @@
 
 @media screen and (max-width: 1035px) {
     .contactBtn {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -141,7 +142,7 @@
     }
 
     .contactBtn {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contactBtn img {
@@ -175,10 +176,14 @@
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 630px) {
 
     .buttonsHero {
         flex-direction: column;
+    }
+
+    .contactBtn {
+        font-size: 22px;
     }
 
 }
