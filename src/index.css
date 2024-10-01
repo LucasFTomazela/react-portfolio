@@ -4,7 +4,6 @@
   overflow-x: clip;
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,10 +20,28 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Estilos padrão para dispositivos móveis (até 600px) */
 .center {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+/* Tablets (601px a 999px) */
+@media (min-width: 601px) and (max-width: 999px) {}
+
+/* Desktops e telas maiores (a partir de 1000px) */
+@media (min-width: 1000px) {
+  .center {
+    max-width: 1105px;
+  }
+}
+
+
+
+/* .center {
   max-width: 1105px;
   width: 100%;
-}
+}  */
 
 /* @media screen and (max-width: 1000px) {
   .center {
