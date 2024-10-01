@@ -64,6 +64,10 @@
         align-items: center;
     }
 
+    .title {
+        font-size: 2rem;
+    }
+
     .menuBtn {
         display: none;
     }
@@ -83,6 +87,7 @@
     .menuItems a {
         transition: transform 0.3s ease;
         display: inline-block;
+        font-size: 1.75rem;
     }
 
     .menuItems a:hover {

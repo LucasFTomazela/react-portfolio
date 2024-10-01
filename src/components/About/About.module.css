@@ -1,22 +1,15 @@
 @import '../../vars.css';
 
 .container {
-    position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
-    border-radius: 15px;
-    padding: 73px;
-    margin: 129px auto 0;
-    max-width: 1220px;
-    width: calc(100% - 40px);
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    padding: 0 20px;
+    margin-top: 40px;
 }
 
 .title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .content {
@@ -26,14 +19,14 @@
 }
 
 .aboutImage {
-    width: 35%;
+    display: none;
 }
 
 .aboutItems {
-    color: var(--color-text);
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
+    margin-top: 25px;
 }
 
 .aboutItem {
@@ -42,7 +35,8 @@
     align-items: center;
     border-radius: 20px;
     list-style: none;
-    padding: 25px;
+    padding: 20px;
+
     background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
@@ -54,34 +48,62 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 1.25rem;
 }
 
-@media screen and (max-width: 830px) {
-    .container {
-        background-color: transparent;
-        padding: 0 20px;
-    }
+.aboutItemText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .content {
-        flex-direction: column;
+@media (min-width: 800px) {
+
+    .container {
+        background-color: rgba(12, 12, 12, 0.6);
+        border-radius: 15px;
+        padding: 20px;
     }
 
     .aboutImage {
-        display: none;
+        display: flex;
+        width: 35%;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .container {
+        width: calc(100% - 40px);
+        max-width: 1215px;
+        padding: 75px;
+        margin: 60px auto;
+        z-index: 1;
+    }
+
+    .title {
+        font-size: 2rem;
     }
 
     .aboutItems {
-        margin-top: 29px;
+        gap: 50px;
     }
 
-    .aboutItem {
-        padding-left: 0;
-        padding-right: 0;
+    .aboutItem h3 {
+        font-size: 1.75rem;
+        font-weight: 600;
     }
+
+    .aboutItem p {
+        font-size: 1.5rem;
+    }
+
+    .content {}
+
+    .aboutImage {}
 }
