@@ -20,6 +20,7 @@
 
 .aboutImage {
     display: none;
+    transform: scaleX(-1);
 }
 
 .aboutItems {

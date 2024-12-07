@@ -10,18 +10,18 @@
     },
     "hero": {
       "nameHero": "Oi, me chamo Lucas",
-      "descriptionHero": "Com experiência em gerenciamento de sistemas, agora estou focado na transição para o desenvolvimento de software para criar soluções eficazes.",
+      "descriptionHero": "Sou desenvolvedor web focado em criar soluções eficazes e intuitivas, com conhecimentos em React, Node.js e boas práticas de UX/UI para proporcionar uma melhor experiência ao usuário.",
       "contactBtn": "Entrar em contato",
       "downloadCV": "Baixar CV"
     },
     "about": {
       "title": "Sobre",
-      "title1": "Desenvolvedor Full Stack em Transição",
-      "description1": "Estou migrando para o desenvolvimento full-stack, focando em tecnologias como React, Node.js e JavaScript para construir aplicações web eficientes.",
-      "title2": "Experiência como Analista de Sistemas",
-      "description2": "Atualmente em gestão e suporte de sistemas, meu objetivo é migrar para o desenvolvimento de software e trabalhar em soluções impactantes.",
-      "title3": "Motivado a Desenvolver Soluções",
-      "description3": "Sou apaixonado por construir ferramentas que causam impacto. Meu objetivo é focar em codificação, resolução de problemas e melhoria de eficiência."
+      "title1": "Desenvolvedor Full Stack",
+      "description1": "Aprofundando conhecimentos em React, Node.js e JavaScript para criar aplicações web eficientes e centradas no usuário",
+      "title2": "Experiência em Sistemas",
+      "description2": "Atualmente atuando com gestão e suporte de sistemas, buscando aplicar essa base técnica no desenvolvimento de soluções inovadoras",
+      "title3": "Transformando Ideias em Realidade",
+      "description3": "Comprometido em desenvolver ferramentas que transformem experiências e melhorem a eficiência"
     },
     "exp": {
       "title": "Experiência",

@@ -10,18 +10,18 @@
     },
     "hero": {
       "nameHero": "Hi, I'm Lucas",
-      "descriptionHero": "With a background in systems management, I'm now focused on transitioning into software development to create effective solutions.",
+      "descriptionHero": "I am a web developer focused on creating effective and intuitive solutions, with expertise in React, Node.js, and UX/UI best practices to deliver an enhanced user experience.",
       "contactBtn": "Contact Me",
       "downloadCV": "Download CV"
     },
     "about": {
       "title": "About",
-      "title1": "Full Stack Developer in Transition",
-      "description1": "I'm moving into full-stack development, focusing on technologies like React, Node.js, and JavaScript to build efficient web applications.",
-      "title2": "System Analyst Experience",
-      "description2": "Currently in system management and support, I'm aiming to transition into software development to work on impactful solutions.",
-      "title3": "Driven to Develop Solutions",
-      "description3": "I'm passionate about building tools that make an impact. My goal is to focus on coding, problem-solving, and improving efficiency."
+      "title1": "Full Stack Developer",
+      "description1": "Deepening knowledge in React, Node.js, and JavaScript to create efficient and user-centered web applications",
+      "title2": "Systems Experience",
+      "description2": "Currently working in system management and support, aiming to apply this technical foundation to the development of innovative solutions",
+      "title3": "Transforming Ideas into Reality",
+      "description3": "Committed to developing tools that enhance experiences and improve efficiency"
     },
     "exp": {
       "title": "Experience",
@@ -54,28 +54,28 @@
       "title": "Projects",
       "project": [
         {
-          "title": "Coming soon",
-          "imageSrc": "projects/project.jpg",
-          "description": "Project under development",
-          "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "title": "XHealth",
+          "imageSrc": "projects/XHealth.jpg",
+          "description": "Challenge proposed by OneBitCode, where you have to build a website for a gym",
+          "skills": ["css", "html", "javascript"],
+          "demo": "",
+          "source": "https://github.com/LucasFTomazela/XHealth?tab=readme-ov-file"
         },
         {
           "title": "Coming soon",
           "imageSrc": "projects/project.jpg",
           "description": "Project under development",
           "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "demo": "",
+          "source": ""
         },
         {
           "title": "Coming soon",
           "imageSrc": "projects/project.jpg",
           "description": "Project under development",
           "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "demo": "",
+          "source": ""
         }
       ]
     },

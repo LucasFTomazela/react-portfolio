@@ -37,6 +37,7 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    padding: 10px 20px;
 }
 
 .skill {
@@ -50,7 +51,6 @@
 
 .links {
     width: 100%;
-    margin-top: 26px;
     display: flex;
     justify-content: space-around;
 }
@@ -59,9 +59,18 @@
     text-decoration: none;
     letter-spacing: 1.5px;
     color: var(--color-text);
-    font-size: 25px;
+    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 100px;
     background: var(--color-primary);
-    padding: 1px 22px;
+    padding: 4px 44px;
+    margin-bottom: 10px;
+}
+
+.link.disabled {
+    pointer-events: none; /* Desativa o clique */
+    opacity: 0.5; /* Reduz a opacidade */
+    background: #ccc; /* Cor do fundo indicando desativado */
+    color: #666; /* Cor do texto indicando desativado */
+    cursor: not-allowed; /* Ícone de não permitido no hover */
 }
