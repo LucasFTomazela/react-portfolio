@@ -5,7 +5,7 @@
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 700;
     letter-spacing: 1.75px;
 }
@@ -50,7 +50,7 @@
 }
 
 .skill p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: var(--font-roboto);
     font-weight: 500;
 }
@@ -83,7 +83,7 @@
 
 .historyItemDetails h3 {
     font-family: inherit;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 1.75px;
 }
@@ -107,7 +107,7 @@
 .historyItemDetails ul>li {
     font-family: var(--font-roboto);
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.rem;
     letter-spacing: 1.75px;
 }
 
