@@ -57,7 +57,7 @@
           "title": "XHealth",
           "imageSrc": "projects/XHealth.jpg",
           "description": "Challenge proposed by OneBitCode, where you have to build a website for a gym",
-          "skills": ["css", "html", "javascript"],
+          "skills": ["CSS", "HTML", "JS"],
           "demo": "",
           "source": "https://github.com/LucasFTomazela/XHealth?tab=readme-ov-file"
         },

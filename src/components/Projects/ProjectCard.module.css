@@ -30,9 +30,10 @@
 }
 
 .skills {
-    width: 100%;
-    margin-top: 14px;
     display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 6px;
@@ -68,9 +69,9 @@
 }
 
 .link.disabled {
-    pointer-events: none; /* Desativa o clique */
-    opacity: 0.5; /* Reduz a opacidade */
-    background: #ccc; /* Cor do fundo indicando desativado */
-    color: #666; /* Cor do texto indicando desativado */
-    cursor: not-allowed; /* Ícone de não permitido no hover */
+    pointer-events: none; 
+    opacity: 0.5; 
+    background: #ccc; 
+    color: #666; 
+    cursor: not-allowed; 
 }

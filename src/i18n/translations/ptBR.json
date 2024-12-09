@@ -59,28 +59,28 @@
       "title": "Projetos",
       "project": [
         {
-          "title": "Em breve",
-          "imageSrc": "projects/project.jpg",
-          "description": "Projeto em desenvolvimento",
-          "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "title": "XHealth",
+          "imageSrc": "projects/XHealth.jpg",
+          "description": "Desafio proposto pela OneBitCode, onde você deve construir um site para uma academia.",
+          "skills": ["CSS", "HTML", "JS"],
+          "demo": "",
+          "source": "https://github.com/LucasFTomazela/XHealth?tab=readme-ov-file"
         },
         {
           "title": "Em breve",
           "imageSrc": "projects/project.jpg",
           "description": "Projeto em desenvolvimento",
           "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "demo": "",
+          "source": ""
         },
         {
           "title": "Em breve",
           "imageSrc": "projects/project.jpg",
           "description": "Projeto em desenvolvimento",
           "skills": [],
-          "demo": "https://www.example.com",
-          "source": "https://www.github.com"
+          "demo": "",
+          "source": ""
         }
       ]
     },
